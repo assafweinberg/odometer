@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+ <link rel="stylesheet" href="odometer.css">
+
+</head>
+<body>
+
+<div id="odometer-container" class="odometer-container"></div>
+
+<script type="text/javascript" src="odometer.js"></script>
+<script type="text/javascript">
+  var myOdometer = new Odometer({
+    words: ['one', 'two', 'three'],
+    el: document.getElementById('odometer-container')
+  })
+  myOdometer.render();
+  myOdometer.run();
+</script>
+</body>
+</html>

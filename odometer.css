@@ -1,0 +1,24 @@
+.odometer-container {
+  margin:3em;
+  border:1px solid #333;
+  font-family: 'Arial';
+  text-transform:uppercase;
+  display:inline-block;
+  overflow:hidden;
+  height:1.5em;
+}
+
+.od-column {
+  position:relative;
+  display:inline-block;
+  line-height:1.5em;
+  border-right:1px solid #333;
+  padding:0 .3em;
+  width:1em;
+  top:0;
+  transition: all .3s ease-out;
+}
+
+.od-column:last-child {
+  border-right:0;
+}
