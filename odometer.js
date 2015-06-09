@@ -38,7 +38,7 @@ Odometer.prototype = {
 
   run: function() {
     var self = this;
-    setInterval(function(){self._nextWord()}, 1000)
+    setInterval(function(){self._nextWord()}, 4000)
   },
 
   _nextWord: function() {

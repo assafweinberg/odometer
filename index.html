@@ -9,12 +9,16 @@
 </head>
 <body>
 
-<div id="odometer-container" class="odometer-container"></div>
+<div class="od-wrapper">
+  <img src="ria.png" class="od-anchor">
+  <div id="odometer-container" class="odometer-container"></div>
+</div>
+
 
 <script type="text/javascript" src="odometer.js"></script>
 <script type="text/javascript">
   var myOdometer = new Odometer({
-    words: ['one', 'two', 'three'],
+    words: ['marketplace', 'directory', 'forums', 'wiki'],
     el: document.getElementById('odometer-container')
   })
   myOdometer.render();
